@@ -31,12 +31,15 @@ instance_type = lookup(var.instance_type, terraform.workspace)
 terraform init
 
 terraform workspace new dev
+
 terraform workspace new prod
 
 terraform workspace select dev
+
 terraform apply
 
 terraform workspace select prod
+
 terraform apply
 
 
