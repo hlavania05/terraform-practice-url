@@ -21,8 +21,9 @@ The same Terraform code is reused for different environments (dev, prod) with di
 Terraform checks the active workspace and selects the instance type accordingly:
 
 ```hcl
-instance_type = lookup(var.instance_type, terraform.workspace)
+instance_type = lookup(var.instance_type, terraform.workspace)```
 
+---
 
 ## Terraform commands to run this script
 
