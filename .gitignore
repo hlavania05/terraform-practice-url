@@ -4,6 +4,7 @@
 .terraform/
 .terraform.lock.hcl
 *.txt
+terraform.tfvars.example
 
 # Environment variables
 .env
